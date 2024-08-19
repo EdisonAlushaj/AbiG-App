@@ -2,6 +2,7 @@ import React, { Component, Suspense } from 'react';
 import { BrowserRouter, Outlet } from 'react-router-dom';
 import './App.css'
 import Header from './Header/Header.jsx';
+import Footer from './Footer/Footer.jsx'
 import AppRoutes from './AppRoutes.jsx';
 
 export const MainLayout = () => {
@@ -11,6 +12,7 @@ export const MainLayout = () => {
       <Suspense fallback={<div>Loading...</div>}>
         <Outlet />
       </Suspense>
+      <Footer />
     </>
   )
 }
