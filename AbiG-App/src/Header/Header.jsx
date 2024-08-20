@@ -14,10 +14,10 @@ function Header() {
                     </NavLink>
                     <div className="collapse navbar-collapse justify-content-end" style={{marginRight: ''}}>
                         <ul className="navbar-nav gap-5 align-items-center" style={{fontSize: '1.4em'}}>
-                            <li className="nav-item" ><NavLink to="/app/home" style={{ color: '#19282F', textDecoration: 'none' }}><b>Home</b></NavLink></li>
-                            <li className="nav-item"><NavLink to="/app/about" style={{ color: '#19282F', textDecoration: 'none' }}><b>About Us</b></NavLink></li>
-                            <li className="nav-item"><NavLink to="#" style={{ color: '#19282F', textDecoration: 'none' }}><b>Services</b></NavLink></li>
-                            <li className="nav-item"><NavLink to="/app/contact" style={{ color: '#19282F', textDecoration: 'none' }}><b>Contact Us</b></NavLink></li>
+                            <li className="nav-item" ><NavLink to="/app/home" style={{ color: '#19282F', textDecoration: 'none' }}><b>Ballina</b></NavLink></li>
+                            <li className="nav-item"><NavLink to="/app/about" style={{ color: '#19282F', textDecoration: 'none' }}><b>Rreth Nesh</b></NavLink></li>
+                            <li className="nav-item"><NavLink to="#" style={{ color: '#19282F', textDecoration: 'none' }}><b>Shërbimet</b></NavLink></li>
+                            <li className="nav-item"><NavLink to="/app/contact" style={{ color: '#19282F', textDecoration: 'none' }}><b>Kontakti</b></NavLink></li>
                         </ul>
                     </div>
                 </div>
