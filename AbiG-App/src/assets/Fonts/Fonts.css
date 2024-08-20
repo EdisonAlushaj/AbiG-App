@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('./Freeform\ 721\ Black\ BT.ttf 721 Black BT.ttf') format('truetype'); /* Adjust the format and path as needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Optional: Create a class for easier usage */
+  .my-custom-font {
+    font-family: 'MyCustomFont', sans-serif;
+  }
