@@ -1,5 +1,12 @@
 import coverImg from '../assets/cover4.jpg';
 import { NavLink } from "react-router-dom";
+import partner1 from '../assets/Partneret/Albaelktrika.png'
+import partner2 from '../assets/Partneret/alxedrix-logo.png'
+import partner3 from '../assets/Partneret/ASGETO.png'
+import partner4 from '../assets/Partneret/bechtel-enka-logo.png'
+import partner5 from '../assets/Partneret/emona.jpg'
+import partner6 from '../assets/Partneret/Jusaj.png'
+import partner7 from '../assets/Partneret/siemens-logo-big.png'
 
 function Home() {
     return (
@@ -13,7 +20,7 @@ function Home() {
                         left: 0,
                         width: 0,
                         height: 0,
-                        borderLeft: '40em solid #3b5d4f',
+                        borderLeft: '39em solid #3b5d4f',
                         borderRight: '20em solid  transparent',
                         borderBottom: '40em solid #3b5d4f',
                         borderTop: '0 solid transparent',
@@ -22,8 +29,8 @@ function Home() {
                     <div className="position-absolute text-start" style={{ zIndex: 2, top: '50%', transform: 'translateY(-50%)', color: '#ffffff', marginLeft: '10em' }}>
                         <h1 style={{
                             fontSize: '7em',
-                            color: '#FAF9F6',
-                            fontFamily: '"Ysabeau SC", sans-serif',
+                            color: '#eb1c26',
+                            fontFamily: 'MyCustomFont, "Ysabeau SC"',
                             fontOpticalSizing: 'auto',
                             fontWeight: '<weight>', // Replace <weight> with the desired font weight, e.g., 400 or 700
                             fontStyle: 'normal'
@@ -61,7 +68,7 @@ function Home() {
             <div className='d-flex flex-row w-100 justify-content-center align-items-center' style={{ height: '40em' }}>
                 <div className='d-flex flex-column justify-content-center align-items-center w-50'>
                     <div className='d-flex flex-column justify-content-center align-items-start w-75' style={{ marginLeft: '11em' }}>
-                        <h1>Why Choose Us</h1>
+                        <h1>Pse Të Na Zgjidhni</h1>
 
                         <p>Sint exercitation minim in ea do quis dolor veniam dolore dolor qui magna. Voluptate est reprehenderit laborum fugiat laboris.</p>
 
@@ -102,12 +109,12 @@ function Home() {
 
             <div className='d-flex flex-row w-100 justify-content-center align-items-center' style={{ height: '40em' }}>
                 <div className='d-flex flex-column justify-content-center align-items-center w-50'>
-                    <img src={coverImg} alt="" style={{ width: '70%', height: '35em', objectFit: 'cover', marginLeft: '0', marginLeft: '9em' }} />
+                    <img src={coverImg} alt="" style={{ width: '70%', height: '35em', objectFit: 'cover', marginLeft: '9em' }} />
                 </div>
 
                 <div className='d-flex flex-column justify-content-center align-items-end w-50'>
                     <div className='d-flex flex-column justify-content-center align-items-end w-75' style={{ marginRight: '10em' }}>
-                        <h1>Whe Help You Make ...</h1>
+                        <h1>Ne ju ndihmojmë të bëni...</h1>
 
                         <p style={{ textAlign: 'end' }}>Veniam aliqua enim magna in qui tempor labore non esse. Esse consectetur dolore minim aute. Cillum veniam ipsum aute aliquip. Aliqua veniam fugiat ipsum cupidatat ut anim enim qui cupidatat proident sunt. Adipisicing ea dolor exercitation dolore. Nostrud sit veniam et cupidatat ad proident non culpa anim. Lorem adipisicing et nisi dolor pariatur.</p>
 
@@ -118,6 +125,20 @@ function Home() {
 
             <div className='d-flex justify-content-center align-items-center w-100' style={{ height: '25em', marginTop: '3em' }}>
                 <img src={coverImg} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            </div>
+
+            <div className='d-flex flex-column justify-content-center align-items-center gap-4' style={{width: '100%', height: '22em'}}>
+                <p style={{fontSize: '3em'}}>Partnerët Tanë</p>
+
+                <div className='d-flex justify-content-center align-items-center gap-4' style={{flexWrap: 'wrap', width: '90%'}}>
+                    <img src={partner1} alt="" style={{width: '9em', objectFit: 'contain'}} />
+                    <img src={partner2} alt="" style={{width: '9em', objectFit: 'contain'}} />
+                    <img src={partner3} alt="" style={{width: '9em', objectFit: 'contain'}} />
+                    <img src={partner4} alt="" style={{width: '9em', objectFit: 'contain'}} />
+                    <img src={partner5} alt="" style={{width: '9em', objectFit: 'contain'}} />
+                    <img src={partner6} alt="" style={{width: '9em', objectFit: 'contain'}} />
+                    <img src={partner7} alt="" style={{width: '9em', objectFit: 'contain'}} />
+                </div>
             </div>
         </>
     );
