@@ -1,6 +1,6 @@
 import coverImg from '../assets/cover4.jpg';
 import { NavLink } from "react-router-dom";
-import image from '../assets/cover2.jpg'
+import image from '../assets/aboutImg.jpg'
 import certificate1 from '../assets/Certificate/202312301434-1.png'
 import certificate2 from '../assets/Certificate/202312301435-1-1.png'
 import certificate3 from '../assets/Certificate/202312301435-1.png'
@@ -55,7 +55,7 @@ function About() {
                 <div className='d-flex flex-column justify-content-center align-items-center' style={{ width: '45%', height: '100%', marginLeft: '5em' }}>
                     <h1>Historia Jonë</h1>
 
-                    <p style={{ width: '70%' }}>Abi-G Shpedicion Ndërkombëtar është një kompani e suksesshme në logjistikë dhe transport mallrash, me bazë në Qyshk, Pejë, Republika e Kosovës. E themeluar në vitin 2003, Abi-G ka zgjeruar shërbimet e saj me zyra në qytetet kryesore të Kosovës, si Peja, Prishtina, Hani i Elezit, Mitrovica dhe Prizreni.</p>
+                    <p style={{ width: '70%' }}>Abi-G Shpedicion Ndërkombëtar është një kompani e suksesshme në logjistikë dhe transport mallrash, me bazë në Qyshk, Pejë, Republika e Kosovës. E themeluar në vitin 2003, Abi-G ka zgjeruar shërbimet e saj me zyra në kryeqytet të Kosovës Prishtina.</p>
                 
                     <p style={{ width: '70%' }}>Ne ofrojmë zgjidhje të besueshme për transportin e mallrave, brenda dhe jashtë vendit. Me një ekip të përkushtuar dhe një rrjet të gjerë, ne sigurohemi që çdo ngarkesë të arrijë në destinacionin e saj me siguri dhe në kohë.</p>
                     
