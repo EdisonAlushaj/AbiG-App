@@ -4,6 +4,7 @@ import { MainLayout } from "./App.jsx";
 import Home from './Home/Home.jsx';
 import About from './AboutUs/About.jsx'
 import Contact from './Contact/Contact.jsx'
+import Service from './Service/Service.jsx'
 
 const AppRoutes = () => (
     <Routes>
@@ -12,6 +13,7 @@ const AppRoutes = () => (
             <Route path="home" element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="service" element={<Service />} />
         </Route>
     </Routes>
 );
