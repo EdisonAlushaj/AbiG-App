@@ -1,4 +1,5 @@
 import coverImg from '../assets/cover4.jpg';
+import './Contact.css'
 
 function Contact() {
     return (
@@ -6,27 +7,11 @@ function Contact() {
             <div className="d-flex flex-column align-items-center justify-content-center" style={{ zIndex: '1', position: 'relative', backgroundColor: '' }}>
                 <div className='position-relative' style={{ width: '100%', height: '20em' }}>
                     {/* Triangle overlay */}
-                    <div style={{
-                        position: 'absolute',
-                        top: 0,
-                        left: 0,
-                        width: 0,
-                        height: 0,
-                        borderLeft: '47em solid #3b5d4f',
-                        borderRight: '10em solid  transparent',
-                        borderBottom: '20em solid #3b5d4f',
-                        borderTop: '0 solid transparent',
-                        zIndex: 2
+                    <div className="triangle-overlay" style={{
+                        
                     }}></div>
-                    <div className="position-absolute text-start" style={{ zIndex: 2, top: '50%', transform: 'translateY(-50%)', color: '#ffffff', marginLeft: '10em', marginTop: '2em' }}>
-                        <h1 style={{
-                            fontSize: '7em',
-                            color: '#FAF9F6',
-                            fontFamily: 'MyCustomFont, "Ysabeau SC"',
-                            fontOpticalSizing: 'auto',
-                            fontWeight: '<weight>', // Replace <weight> with the desired font weight, e.g., 400 or 700
-                            fontStyle: 'normal'
-                        }}>
+                    <div className="title position-absolute text-start" style={{  }}>
+                        <h1 style={{}}>
                             Kontakti
                         </h1>
                     </div>
@@ -45,22 +30,22 @@ function Contact() {
                 </div>
             </div>
 
-            <div className='d-flex flex-row align-items-center' style={{ width: '100%', height: '27em', justifyContent: 'space-evenly' }}>
-                <div className='d-flex flex-column justify-content-center align-items-start' style={{ fontSize: '1.3em' }}>
+            <div className='contact align-items-center' style={{  }}>
+                <div className='contact-item d-flex flex-column justify-content-center' style={{  }}>
                     <p><b>Lokacioni</b></p>
 
                     <p style={{ margin: '0' }}>Qyshk - Pejë, Kosovë</p>
                     <p style={{ margin: '0' }}>Prishtinë, Kosovë</p>
                 </div>
 
-                <div className='d-flex flex-column justify-content-center align-items-start' style={{ fontSize: '1.3em' }}>
+                <div className='contact-item d-flex flex-column justify-content-center' style={{  }}>
                     <p><b>Numrat e Tel</b></p>
 
                     <p style={{ margin: '0' }}>00383(0)49 117 999</p>
                     <p style={{ margin: '0' }}>00383(0)49 200 092</p>
                 </div>
 
-                <div className='d-flex flex-column justify-content-center align-items-start' style={{ fontSize: '1.3em' }}>
+                <div className='contact-item d-flex flex-column justify-content-center' style={{  }}>
                     <p><b>Email</b></p>
 
                     <p style={{ margin: '0' }}>info@abi-g.com</p>
