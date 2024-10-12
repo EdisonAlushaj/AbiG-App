@@ -20,9 +20,9 @@ function Home() {
             <div className="d-flex flex-column align-items-center justify-content-center home-container" style={{ zIndex: '1', position: 'relative', backgroundColor: '' }}>
                 <div className='cover position-relative' style={{ width: '100%', height: '40em' }}>
                     {/* Triangle overlay */}
-                    <div className="triangle-overlay" style={{}}></div>
+                    <div className="triangle-overlay-1" style={{}}></div>
                     
-                    <div className="cover-text position-absolute text-start" style={{  }}>
+                    <div className="cover-text-1 position-absolute text-start" style={{  }}>
                         <h1 style={{}}>ABI-G</h1>
                         <h4 style={{  }}>Shpedicion Ndërkombëtar</h4>
                         <h4 style={{  }}>Internationl Spedicion</h4>

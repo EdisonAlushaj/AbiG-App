@@ -1,4 +1,4 @@
-.cover-text {
+.cover-text-1 {
     z-Index: 2;
     top: 50%;
     transform: translateY(-50%);
@@ -6,7 +6,7 @@
     margin-left: 10em;
 }
 
-.triangle-overlay {
+.triangle-overlay-1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -19,22 +19,22 @@
     z-index: 2;
 }
 
-.cover-text h1 {
+.cover-text-1 h1 {
     font-size: 7em;
-    color: #eb1c26;
-    font-family: 'MyCustomFont', 'Ysabeau SC', sans-serif;
+    color: #ffffff;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     /* Assuming a bold weight, adjust as needed */
     font-style: normal;
 }
 
-.cover-text h4 {
+.cover-text-1 h4 {
     font-size: 2em;
     color: #FAF9F6;
 }
 
-.cover-text p {
+.cover-text-1 p {
     width: 35em;
     color: #ffffff;
 }
@@ -114,26 +114,26 @@
         justify-content: center;
     }
 
-    .triangle-overlay {
-        border-width: 0px 20em 40em 7em;
+    .triangle-overlay-1 {
+        border-width: 0px 19em 40em 5em;
     }
 
-    .cover-text {
+    .cover-text-1 {
         margin-left: 1em;
         text-align: center;
         top: 40%;
         transform: translateY(-40%);
     }
 
-    .cover-text h1 {
+    .cover-text-1 h1 {
         font-size: 3em;
     }
 
-    .cover-text h4 {
+    .cover-text-1 h4 {
         font-size: 1.5em;
     }
 
-    .cover-text p {
+    .cover-text-1 p {
         width: 90%;
         font-size: 1em;
     }
@@ -162,7 +162,7 @@
     }
 
     .about-text {
-        height: 70em;
+        height: 65em;
         flex-direction: column;
     }
 
